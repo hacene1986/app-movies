@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img style="max-width: 400px" *ngIf="movie.photo" [src]="movie.photo" >
+    <h1>{{movie.title}}</h1>
+    <h3>{{movie.realisateur}}</h3>
+    <button class="btn btn-default" (click)="onBack()">Retour</button>
+  </div>
+</div>
